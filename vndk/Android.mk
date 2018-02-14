@@ -82,6 +82,9 @@ endif  # TARGET_TRANSLATE_2ND_ARCH is not true
 endif  # TARGET_2ND_ARCH is not empty
 endef
 
+# Remove libz from the VNDK-SP list (b/73296261)
+VNDK_SP_LIBRARIES := $(filter-out libz,$(VNDK_SP_LIBRARIES))
+
 $(foreach lib,$(VNDK_SP_LIBRARIES),\
     $(eval $(call define-vndk-lib,$(lib),vndk-sp-gen,vndk-sp-29,)))
 $(foreach lib,$(VNDK_SP_EXT_LIBRARIES),\
