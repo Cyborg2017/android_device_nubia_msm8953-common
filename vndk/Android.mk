@@ -15,6 +15,7 @@ VNDK_SP_LIBRARIES := \
     libRSDriver \
     libRS_internal \
     libartbase \
+    libartpalette \
     libbacktrace \
     libbase \
     libbcinfo \
