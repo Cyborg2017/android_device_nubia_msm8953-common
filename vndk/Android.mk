@@ -14,8 +14,6 @@ VNDK_SP_LIBRARIES := \
     libRSCpuRef \
     libRSDriver \
     libRS_internal \
-    libartbase \
-    libartpalette \
     libbacktrace \
     libbase \
     libbcinfo \
@@ -24,7 +22,6 @@ VNDK_SP_LIBRARIES := \
     libc++ \
     libcompiler_rt \
     libcutils \
-    libdexfile_external \
     libdexfile_support \
     libhardware \
     libhidlbase \
@@ -40,8 +37,7 @@ VNDK_SP_LIBRARIES := \
     libunwindstack \
     libutils \
     libutilscallstack \
-    libz \
-    libziparchive
+    libz
 
 EXTRA_VENDOR_LIBRARIES := \
     android.hidl.base@1.0 \
