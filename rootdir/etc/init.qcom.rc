@@ -1053,7 +1053,8 @@ service can /vendor/bin/init.qti.can.sh
 
 service charger /charger
     class charger
-    group system graphics
+    user system
+    group system graphics input
     seclabel u:r:healthd:s0
 
 service vendor.ssr_diag /system/vendor/bin/ssr_diag
