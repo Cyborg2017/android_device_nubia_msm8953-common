@@ -35,6 +35,7 @@ vendor.qcom.bluetooth.soc=smd
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.camera.display.umax=1920x1080 \
 persist.vendor.camera.display.lmax=1280x720 \
+vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android \
 camera.lowpower.record.enable=1 \
 vidc.enc.dcvs.extra-buff-count=2
 
