@@ -309,16 +309,15 @@ vendor/lib64/libsdm-color.so|335415c8f85a1e2e102667c24dffb166e7b08e75
 vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
 -vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
 vendor/lib64/libsdmextension.so|6184043b163c502e3b89dbc216421f096a01d5b3
-vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
+vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2+
 
-# Graphics firmware
-etc/firmware/a506_zap.b00:vendor/firmware/a506_zap.b00
-etc/firmware/a506_zap.b01:vendor/firmware/a506_zap.b01
-etc/firmware/a506_zap.b02:vendor/firmware/a506_zap.b02
-etc/firmware/a506_zap.elf:vendor/firmware/a506_zap.elf
-etc/firmware/a506_zap.mdt:vendor/firmware/a506_zap.mdt
-etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
+# Graphics firmware - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
+vendor/firmware/a506_zap.b00|c45a7b34456844f5deb73e2dce79cbfcfb9ae71c
+vendor/firmware/a506_zap.b01|00a618f9ecde71e169200fbdc60428c81bab144c
+vendor/firmware/a506_zap.b02|b79957c47f0a6757ac1d721dbe06551508454634
+vendor/firmware/a506_zap.mdt|2945f21b47cf35bf22d8cb68e937c34ea64212c0
+vendor/firmware/a530_pfp.fw|448f9db8271fefb08348cbc50409e8e95bd93f78
+vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 
 # Keystore - from LA.UM.8.6.r1-03400-89xx.0
 vendor/lib/hw/keystore.msm8953.so|5dfcd92567254c5912c10ef2013e222b9fe33b03
