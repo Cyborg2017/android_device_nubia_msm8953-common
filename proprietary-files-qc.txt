@@ -622,36 +622,36 @@ product/lib64/libimsmedia_jni.so|448795a73bbf72fc0c9876f86a13769139ea8022
 -product/priv-app/ims/ims.apk|4d8c1b7db75fb6a8ea2620511d67261384eec8a2
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|936011dbcfd05ea9350f7410bb6f4d69ddd3fb61
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/lib/hw/activity_recognition.msm8953.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8953.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/sensors.ssc.so
-lib64/sensors.oem.so:vendor/lib64/sensors.oem.so
+# Sensors - from LA.UM.8.6.r1-03400-89xx.0
+vendor/bin/sensors.qti|44c8779bc691b7484718e490506f90890ca725cc
+vendor/lib/hw/activity_recognition.msm8953.so|8775b59a5b99a37eace38f06cb821007bd7c88ae
+vendor/lib/libsensor1.so|5bb6c35dabadb59301e870e319b43212154fa12c
+vendor/lib/libsensor_reg.so|db6e00ba09e2d7cb65c070a3aecf374f7ea4cea1
+vendor/lib/libsensor_user_cal.so|5bb430aee52db949f49eff66b193e4fbf6802270
+vendor/lib/sensors.ssc.so|bdb1f587d78722c6b4e5e2f5df86c5dfeb49ccf3
+vendor/lib64/hw/activity_recognition.msm8953.so|19637d97c2cf50a6c7b34d7529f2636198404522
+vendor/lib64/libsensor1.so|4a63118bc426116643216c5f43f70ce0cd52d537
+vendor/lib64/libsensor_reg.so|b977629681598d927830ed99986e818c01c2d34a
+vendor/lib64/libsensor_user_cal.so|a9cd76f06c02e23cb7f1552aa7d51567259faa47
+vendor/lib64/sensors.ssc.so|23f60022a6415f0fb644aed853b3ee5dceecd0de
 
-# Thermal - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
-vendor/lib/libthermalclient.so|523476e106337823696f0600b48f057d8c629465
-vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
-vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
+# Thermal - from LA.UM.8.6.r1-03400-89xx.0
+vendor/bin/thermal-engine|e7a2ab9558d8b0516dfe0f5f232126b87cc1748c
+-vendor/lib/libthermalclient.so|14593d3551af6ce493b8534d123739cc7d146993
+-vendor/lib64/libthermalclient.so|c36b6baf6e82a73e7afaf52589dada5248a69daf
+vendor/lib64/libthermalioctl.so|1d6587245c7e7148638f14254e2f61f6b5552857
 
-# Time services - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
-vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
+# Time services - from LA.UM.8.6.r1-03400-89xx.0
+-vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
+vendor/bin/time_daemon|ae62ec5029368a381847232c043932ab4f41bb8e
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib64/libtime_genoff.so|3c84c33b565008682681e3dbdcac7c6312e060ce
 
-# TUI
-lib/vendor.qti.hardware.tui_comm@1.0.so
-lib64/vendor.qti.hardware.tui_comm@1.0.so
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# TUI - from LA.UM.8.6.r1-03400-89xx.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|19932d88afdf0351d7bfb6dee19a171d85bc1fde
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|7343cf8a20fb8e72e17b014cda7b5ae85841354a
 
 # WiFi
 etc/firmware/wlan/prima/WCNSS_cfg.dat:vendor/firmware/wlan/prima/WCNSS_cfg.dat
