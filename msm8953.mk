@@ -328,6 +328,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    vndk-ext \
     vndk-sp
 
 # Vibrator
