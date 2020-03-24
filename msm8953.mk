@@ -332,7 +332,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.mokee.trust@1.0-service
 
 # USB HAL
 PRODUCT_PACKAGES += \
