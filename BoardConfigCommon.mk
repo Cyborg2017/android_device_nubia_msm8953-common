@@ -104,9 +104,9 @@ QCOM_BT_READ_ADDR_FROM_PROP := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
+# MKHW
 BOARD_HARDWARE_CLASS += \
-    hardware/lineage/lineagehw
+    hardware/mokee/mkhw
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
