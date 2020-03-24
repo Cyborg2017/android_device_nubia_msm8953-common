@@ -41,7 +41,7 @@
     </hal>
     <hal format="hidl" optional="false">
         <name>android.hidl.manager</name>
-        <version>1.1</version>
+        <version>1.0</version>
         <interface>
             <name>IServiceManager</name>
             <instance>default</instance>
@@ -78,9 +78,5 @@
             <name>IKeystore</name>
             <instance>default</instance>
         </interface>
-    </hal>
-    <hal format="native" optional="false">
-        <name>netutils-wrapper</name>
-        <version>1.0</version>
     </hal>
 </compatibility-matrix>
