@@ -193,11 +193,6 @@ TARGET_POWERHAL_VARIANT := qcom
 TARGET_LD_SHIM_LIBS := \
     /vendor/bin/mm-qcamera-daemon|libshim_libc.so
 
-# TWRP
-ifeq ($(WITH_TWRP),true)
-include $(VENDOR_PATH)/twrp.mk
-endif
-
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HOSTAPD_DRIVER := NL80211
