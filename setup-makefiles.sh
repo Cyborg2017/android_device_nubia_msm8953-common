@@ -40,14 +40,7 @@ setup_vendor "$DEVICE_COMMON" "$VENDOR" "$MK_ROOT" true
 write_headers "nx549j nx551j"
 
 # Main Qcom blobs
-write_makefiles "$MY_DIR"/proprietary-files.txt true
-
-# Blobs for TWRP data decryption
-cat << EOF >> "$BOARDMK"
-ifeq (\$(WITH_TWRP),true)
-TARGET_RECOVERY_DEVICE_DIRS += vendor/$VENDOR/$DEVICE_COMMON/proprietary
-endif
-EOF
+write_makefiles "$MY_DIR"/proprietary-files-qc.txt true
 
 # Finish
 write_footers
