@@ -257,6 +257,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Properties
+-include device/nubia/msm8953-common/prop.mk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \

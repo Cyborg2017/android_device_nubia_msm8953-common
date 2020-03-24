@@ -189,9 +189,6 @@ BOARD_USES_QCOM_HARDWARE := true
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
-# Properties
-TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
-
 # Shim
 TARGET_LD_SHIM_LIBS := \
     /vendor/bin/mm-qcamera-daemon|libshim_libc.so
