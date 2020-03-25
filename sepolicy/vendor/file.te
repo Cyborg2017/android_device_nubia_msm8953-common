@@ -1,5 +1,5 @@
-type gx_fpd_data_file, file_type, core_data_file_type, data_file_type;
-type sysfs_touchpanel, fs_type, sysfs_type;
+# Camera
+type camera_socket, file_type, data_file_type;
 
 # Sensor
 type sensors_data_file, file_type, data_file_type, core_data_file_type;
